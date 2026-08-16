@@ -86353,10 +86353,10 @@ p=p.a
 return new A.pS(new A.cZ(new A.aqW(this.a),s),"TriPeaks NEUE",$.aM4(),$.aM3(),p,r,q,!1,B.Dr,s)},
 $S:557}
 A.aqW.prototype={
-$1(a){var s
+$1(a){var s,r
 A.N(a)
-s=this.a
-if(s.a){s.a=!1
+try{}catch(s){}r=this.a
+if(r.a){r.a=!1
 $.aj.ry$.push(new A.aqV(a))}return new A.tX(null)},
 $S:558}
 A.aqV.prototype={
