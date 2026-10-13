@@ -40,8 +40,14 @@ body {
     align-items: center;
     gap: 1em;
     padding: 1em 2em;
-
 }
+
+.part:nth-child(1) { transform: rotate(-2deg); }
+.part:nth-child(2) { transform: rotate(1deg); }
+.part:nth-child(3) { transform: rotate(2deg); }
+.part:nth-child(4) { transform: rotate(-1deg); }
+.part:nth-child(5) { transform: rotate(3deg) translateX(0.3em); }
+.part span.desc { transform: rotate(-4deg) translateX(0.6em); }
 
 p {
     max-width: 40em;
@@ -72,6 +78,10 @@ a {
 }
 
 a:hover {
-    text-decoration: underline;
+    background-color: #eee2b3;
     color: #E53935;
+}
+
+a.image-link {
+    padding: 0.2em 0.4em;
 }
